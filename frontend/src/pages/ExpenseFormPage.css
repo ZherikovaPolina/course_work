@@ -1,0 +1,15 @@
+.expense-page {
+  padding: 20px;
+}
+
+.expense-page h1 {
+  text-align: center;
+  color: #6c5ce7;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .expense-page {
+    padding: 10px;
+  }
+}
