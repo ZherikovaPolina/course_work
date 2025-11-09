@@ -1,0 +1,15 @@
+.list-page {
+  padding: 20px;
+}
+
+.list-page h1 {
+  text-align: center;
+  color: #6c5ce7;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .list-page {
+    padding: 10px;
+  }
+}

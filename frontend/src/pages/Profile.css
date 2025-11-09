@@ -1,0 +1,67 @@
+.profile-page {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f8f8ff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-page p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.profile-page button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #6c5ce7;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.profile-page button:hover {
+  background-color: #a29bfe;
+}
+
+.rewards-section {
+  margin-top: 30px;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.rewards-section h3 {
+  font-size: 18px;
+  color: #6c5ce7;
+  margin-bottom: 10px;
+}
+
+.rewards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.reward-card {
+  background: linear-gradient(135deg, #a29bfe, #81ecec);
+  padding: 10px 15px;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.reward-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
